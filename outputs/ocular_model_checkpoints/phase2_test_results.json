@@ -1,0 +1,74 @@
+{
+  "checkpoint": "91908691_1793050199",
+  "optimal_thresholds_from_val": {
+    "Normal": 0.5532772541046143,
+    "Diabetic Retinopathy": 0.586534857749939,
+    "Glaucoma": 0.5033208131790161,
+    "Cataract": 0.6211435794830322,
+    "Other": 0.5831148624420166
+  },
+  "test_per_class_auc": {
+    "Normal": 0.9249248566343682,
+    "Diabetic Retinopathy": 0.9330705384817504,
+    "Glaucoma": 0.963080832211267,
+    "Cataract": 0.9914632791378097,
+    "Other": 0.9276321637124696
+  },
+  "test_macro_auc": 0.9480343340355329,
+  "test_classification_report": {
+    "Normal": {
+      "precision": 0.7015151515151515,
+      "recall": 0.8903846153846153,
+      "f1-score": 0.7847457627118644,
+      "support": 1040.0
+    },
+    "Diabetic Retinopathy": {
+      "precision": 0.8155802861685215,
+      "recall": 0.6803713527851459,
+      "f1-score": 0.7418655097613883,
+      "support": 754.0
+    },
+    "Glaucoma": {
+      "precision": 0.7820773930753564,
+      "recall": 0.843956043956044,
+      "f1-score": 0.8118393234672304,
+      "support": 455.0
+    },
+    "Cataract": {
+      "precision": 0.9523809523809523,
+      "recall": 0.9139784946236559,
+      "f1-score": 0.9327846364883402,
+      "support": 372.0
+    },
+    "Other": {
+      "precision": 0.7949526813880127,
+      "recall": 0.6810810810810811,
+      "f1-score": 0.7336244541484717,
+      "support": 370.0
+    },
+    "micro avg": {
+      "precision": 0.7755298651252408,
+      "recall": 0.8074222668004012,
+      "f1-score": 0.7911547911547911,
+      "support": 2991.0
+    },
+    "macro avg": {
+      "precision": 0.8093012929055989,
+      "recall": 0.8019543175661085,
+      "f1-score": 0.800971937315459,
+      "support": 2991.0
+    },
+    "weighted avg": {
+      "precision": 0.7852847588082209,
+      "recall": 0.8074222668004012,
+      "f1-score": 0.7901457748467445,
+      "support": 2991.0
+    },
+    "samples avg": {
+      "precision": 0.7807370184254606,
+      "recall": 0.8080402010050252,
+      "f1-score": 0.7895030709101061,
+      "support": 2991.0
+    }
+  }
+}

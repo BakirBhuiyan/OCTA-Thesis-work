@@ -1,0 +1,74 @@
+{
+  "checkpoint": "36010283_1792783920",
+  "per_class_auc": {
+    "Normal": 0.761102269369214,
+    "Diabetic Retinopathy": 0.799775087153728,
+    "Glaucoma": 0.8645483792697504,
+    "Cataract": 0.9682641857753594,
+    "Other": 0.7523420460013874
+  },
+  "macro_auc": 0.8292063935138879,
+  "optimal_thresholds": {
+    "Normal": 0.5516932010650635,
+    "Diabetic Retinopathy": 0.5338290929794312,
+    "Glaucoma": 0.5161195397377014,
+    "Cataract": 0.5074809789657593,
+    "Other": 0.5117331743240356
+  },
+  "classification_report": {
+    "Normal": {
+      "precision": 0.5097087378640777,
+      "recall": 0.9025787965616046,
+      "f1-score": 0.6514994829369183,
+      "support": 1047.0
+    },
+    "Diabetic Retinopathy": {
+      "precision": 0.44417862838915473,
+      "recall": 0.7725381414701803,
+      "f1-score": 0.5640506329113925,
+      "support": 721.0
+    },
+    "Glaucoma": {
+      "precision": 0.5533199195171026,
+      "recall": 0.6165919282511211,
+      "f1-score": 0.5832449628844114,
+      "support": 446.0
+    },
+    "Cataract": {
+      "precision": 0.7519582245430809,
+      "recall": 0.782608695652174,
+      "f1-score": 0.7669773635153129,
+      "support": 368.0
+    },
+    "Other": {
+      "precision": 0.3553875236294896,
+      "recall": 0.5026737967914439,
+      "f1-score": 0.416389811738649,
+      "support": 374.0
+    },
+    "micro avg": {
+      "precision": 0.4987823776843037,
+      "recall": 0.7621786197564276,
+      "f1-score": 0.6029706945002007,
+      "support": 2956.0
+    },
+    "macro avg": {
+      "precision": 0.522910606788581,
+      "recall": 0.7153982717453047,
+      "f1-score": 0.5964324507973368,
+      "support": 2956.0
+    },
+    "weighted avg": {
+      "precision": 0.5109384587909948,
+      "recall": 0.7621786197564276,
+      "f1-score": 0.6045010750251708,
+      "support": 2956.0
+    },
+    "samples avg": {
+      "precision": 0.525954890626771,
+      "recall": 0.7648758925535533,
+      "f1-score": 0.6008840530431825,
+      "support": 2956.0
+    }
+  }
+}
